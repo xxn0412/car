@@ -1,0 +1,113 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #002060;
+    /* 深蓝底色 */
+    color: #fff;
+    /* 字体颜色为白色 */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.home-link {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.home-text {
+    margin-left: 5px;
+}
+
+.fa-home {
+    margin-right: 5px;
+}
+
+.content-container {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #002060;
+    /* 深蓝底色 */
+    padding: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    /* 字体颜色为白色 */
+    transition: background-color 0.3s ease;
+}
+
+.sidebar li a:hover {
+    background-color: #003380;
+    /* 深蓝底色的深色悬停状态 */
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    transition: background-color 0.3s ease;
+}
+
+li a:hover {
+    background-color: #dcdcdc;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.logout-button {
+    padding: 8px 16px;
+    background-color: #002060;
+    /* 深蓝底色 */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #003380;
+    /* 深蓝底色的深色悬停状态 */
+}

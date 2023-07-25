@@ -1,0 +1,179 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 6px 10px;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-button {
+    background-color: #007bff;
+}
+
+.delete-button {
+    background-color: #ff0000;
+}
+
+.button-separator {
+    margin: 0 4px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.edit-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    z-index: 100;
+}
+
+.edit-modal h3 {
+    margin: 0;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 4px 4px 0 0;
+}
+
+.edit-modal form {
+    padding: 20px;
+}
+
+.edit-modal .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.edit-modal .form-group label {
+    width: 120px;
+    font-weight: bold;
+    margin-right: 16px;
+    color: #333;
+}
+
+.edit-modal input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-left: 4px;
+}
+
+.edit-modal button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-modal button:last-child {
+    margin-left: 10px;
+    background-color: #ccc;
+}
+
+.edit-modal button:hover {
+    opacity: 0.8;
+}
+
+.add-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    z-index: 100;
+}
+
+.add-modal h3 {
+    margin: 0;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 4px 4px 0 0;
+}
+
+.add-modal form {
+    padding: 20px;
+}
+
+.add-modal .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.add-modal .form-group label {
+    width: 120px;
+    font-weight: bold;
+    margin-right: 16px;
+    color: #333;
+}
+
+.add-modal input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-left: 4px;
+}
+
+.add-modal button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-modal button:last-child {
+    margin-left: 10px;
+    background-color: #ccc;
+}
+
+.add-modal button:hover {
+    opacity: 0.8;
+}
+
+.add-button {
+    padding: 8px 16px;
+    background-color: #f90;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.table-toolbar {
+    margin-bottom: 16px;
+    position: relative;
+    text-align: left;
+}
